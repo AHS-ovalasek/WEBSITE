@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>owenvalasek.com/store</title>
+        <link rel="stylesheet" href="store.css">
+    </head>
+    <body style=background-color:white>
+        <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#000000" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#000000" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#000000" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>    
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()" style="color: white">&times;</a>
+      <li><a href="index.html" style="color: white">Home</a></li>
+      <li><a href="store.html" style="color: white">Shop</a></li>
+      <li><a href="socialmedia.html" style="color: white">Social Media</a></li>
+  </div>
+
+  <div id="main">
+    <h1></h1>
+  </div>
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '270px';
+      document.getElementById('main').style.marginLeft = '270px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+        </script>
+        <center><p>This page is not available at the moment...</p></center>
+        <center><p>owenvalasek.com/store will be coming in the future..</p></center>
+        
+            <center><img src="pictures/blackshirt.jpg"/></center>
+        
+        
+    </body>
+</html> 
+        
+        
