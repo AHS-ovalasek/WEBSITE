@@ -61,3 +61,23 @@ body{
     overflow: hidden;
     width: 100%;
 }
+
+.intro{
+    text-decoration: underline;
+    font-family:cursive;
+}
+
+#shirtfront{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#shirtfront:active{
+    content: url(selfies/t-shirt1back.jpg);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.p{
+    font-family: serif;
+}
