@@ -2,6 +2,10 @@
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
+.heading {
+  margin: 0 auto;
+}
+
 .month {
   padding: 70px 25px;
   width: 100%;
