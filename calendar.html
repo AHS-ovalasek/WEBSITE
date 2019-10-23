@@ -4,6 +4,41 @@
     <link href="calendar.css" rel="stylesheet" type="text/css"/>
     </head>
 <body>
+    
+    <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#ffffff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#ffffff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#ffffff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>    
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://tshirtsbyowen.my-online.store/">Shop</a></li>
+      <li><a href="socialmedia.html">Social Media</a></li>
+      <li><a href="calendar.html">Calendar</a></li>
+  </div>
+
+  <div id="main">
+    <h1></h1>
+  </div>
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '270px';
+      document.getElementById('main').style.marginLeft = '270px';
+    }
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
 
 <h1 class="heading">The Owen Valasek Calendar</h1>
 
